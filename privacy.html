@@ -16,7 +16,7 @@
 <h2>What we process</h2>
 <ul>
 <li><b>Plant photos.</b> When you scan, the photo is resized on your phone and sent over an encrypted connection to our server, which passes it to Anthropic's Claude AI service to identify the plant and any visible symptoms. We don't store the photo on our server. Anthropic processes it under its commercial terms, which don't allow it to be used to train its models.</li>
-<li><b>Approximate location (optional).</b> If you allow location or enter a ZIP code or town, the app rounds the coordinates to about 1 km before sending them. Our server uses them to look up soil data (USDA Soil Data Access or ISRIC SoilGrids) and the weather forecast (Open-Meteo). We don't store your location. A ZIP code or town you type is looked up with Open-Meteo's geocoding service.</li>
+<li><b>Approximate location (optional).</b> If you allow location or enter a ZIP code or town, the app rounds the coordinates to about 1 km before sending them. Our server uses them to look up soil data (USDA Soil Data Access or ISRIC SoilGrids) and the weather forecast (MET Norway). We don't store your location. A ZIP code or town you type is sent to our server, which looks it up with OpenStreetMap's Nominatim service.</li>
 <li><b>A random app ID.</b> The app creates a random identifier on first launch so we can count your free scans. It isn't linked to your name, Apple ID or device.</li>
 <li><b>Subscription status.</b> If you subscribe, the app sends Apple's signed transaction so our server can confirm your subscription is active. We never see your payment details; Apple handles payment.</li>
 </ul>
